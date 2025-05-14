@@ -1,3 +1,7 @@
+-- Database Creation to hold the Tables
+CREATE DATABASE INVENTORY;
+USE INVENTORY;
+
 -- Drop existing tables if rerunning script
 DROP TABLE IF EXISTS OrderItem, PurchaseOrder, Inventory, Product, Category, Supplier, Warehouse;
 
