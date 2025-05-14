@@ -2,16 +2,16 @@
 
 ## 📌 Project Description
 
-This project is a **relational database system** built with **MySQL** designed to manage inventory, suppliers, products, stock levels, and purchase orders for a real-world business.
+This project is  built with **MySQL 8.0** designed to manage inventory..
 
-It provides a solid schema structure with proper use of:
+## Objective:
+Design and implement a full-featured database using only MySQL to create:
 
-- Primary Keys (PK) and Foreign Keys (FK)
-- Constraints (`NOT NULL`, `UNIQUE`)
+- Tables with proper constraints (`NOT NULL`, `UNIQUE`, `Primary Key (PK),` `Foreign Key(FK)`)
 - Relationships:
-  - One-to-Many (e.g., Categories → Products)
-  - One-to-One (e.g., Products → Inventory)
-  - Many-to-Many (e.g., Purchase Orders ↔ Products via Order Items)
+  - One-to-Many
+  - One-to-One
+  - Many-to-Many
 
 ## ⚙️ How to Set Up and Run
 
@@ -33,7 +33,7 @@ It provides a solid schema structure with proper use of:
 
 > 📷 **ERD Screenshot Placeholder**
 
-![alt text](<ChatGPT Image May 14, 2025, 09_14_47 AM.png>)
+![alt text](inventryScreenshot.png)
 
 ## 👨‍⚕️ Relationships
 
